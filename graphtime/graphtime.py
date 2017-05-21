@@ -134,7 +134,7 @@ class DynamicGraphLasso:
             eps_primal.append(epsP1)
 
             if self.verbose:
-                print('iteration', n_iter, 'Prime: ', eps_primal[-1], ' Dual: ', eps_dual[-1])
+                print(('iteration', n_iter, 'Prime: ', eps_primal[-1], ' Dual: ', eps_dual[-1]))
 
             n_iter += 1
 
